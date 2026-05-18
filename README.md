@@ -115,4 +115,4 @@ Interpretative Cryptography stands at the intersection of Cryptography, Compiler
 ## 📄 License
 This theoretical framework and its reference implementations are open-sourced under the **MIT License**.
 
-*Formulated and proposed by the Open Cryptographic Research Group, 2026.*
+*Formulated and proposed by Eugen Agafonov (LiberCoder), 2026.*
