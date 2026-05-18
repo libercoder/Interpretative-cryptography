@@ -1,7 +1,7 @@
 # Interpretative Cryptography: A Non-Linear Symbolic Paradigm Based on Formal Language Theory
 
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![Status: Core-Research](https://shields.io)](https://github.com)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue)
+![Status: Core-Research](https://img.shields.io/badge/Status-Core--Research-blue)
 
 ## 💡 Core Philosophy
 
@@ -121,4 +121,4 @@ Interpretative Cryptography stands at the intersection of Cryptography, Compiler
 ## 📄 License
 This theoretical framework and its reference implementations are open-sourced under the **MIT License**.
 
-*Formulated and proposed by the Open Cryptographic Research Group, 2026.*
+*Formulated and proposed by Eugen Agafonov (LiberCoder), 2026.*
