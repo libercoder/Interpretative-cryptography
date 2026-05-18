@@ -1,6 +1,7 @@
 # Interpretative Cryptography: A Non-Linear Symbolic Paradigm Based on Formal Language Theory
 
-License: MIT | Status: Core-Research
+![License: MIT](https://img.shields.io/badge/License-MIT-blue)
+![Status: Core-Research](https://img.shields.io/badge/Status-Core--Research-blue)
 
 ## 💡 Core Philosophy
 
