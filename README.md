@@ -22,8 +22,8 @@ Any binary sequence input into the system is treated as machine code for a speci
 * Changing a single bit in the key stream does not merely alter a value; it transforms the **Operation Code (Opcode)** itself (e.g., converting a logical shift into an execution jump).
 * This induces an instant, non-linear divergence of the entire computation trajectory. The transformation function changes its internal structure at every execution step.
 
-### 2. Syntax-Error-Resilient ISA (Instruction Set Architecture)
-Unlike traditional computing environments that crash upon encountering unexpected data (`Syntax Error`), Interpretative Cryptography relies on a **completely resilient ISA**. 
+### 2. Syntax-Error-Resilient DISA (Dynamic Instruction Set Architecture)
+Unlike traditional computing environments that crash upon encountering unexpected data (`Syntax Error`), Interpretative Cryptography relies on a **completely resilient DISA**. 
 * The grammar of the interpreter is mathematically mapped so that **any** continuous stream of bits represents a syntactically valid, executable, and deterministic software sequence. There are no undefined behaviors or invalid operations.
 
 ### 3. The Non-Linear Asymmetric Trapdoor (Modal Semantics)
@@ -39,6 +39,12 @@ $$\mathbf{0 \text{ AND } Y = 0 \quad | \quad 1 \text{ OR } Y = 1} \quad \color{g
 
 *   **Forward Transformation (Public Domain):** Processing injects uncertainty ($Y$), causing the logical state tree to branch exponentially. This effectively erases historical state trajectories for any classical observer or automated SAT-solver.
 *   **Reverse Transformation (Private Domain):** The private interpreter utilizes the inverse semantic map of $X$. During reverse execution, the deterministic collisions caused by $Y$ are perfectly counterbalanced by the paradoxical properties of $X$, collapsing the exponential search space back into a singular, predictable linear timeline.
+
+### 4. The Principle of Infinite Semantic Multiplicity
+The framework rejects the concept of a Fixed Instruction Set Architecture (FISA). There is no hardcoded table mapping bit combinations to specific operational classes (such as loops, shifts, or arithmetic transforms). Instead, any arbitrary sequence of bits is interpreted as a set of instructions through a fluid, multi-layered semantic context mapping ($S$). 
+
+A singular binary block possesses an infinite number of executable meanings: it can simultaneously decode into a polynomial transformation, a conditional branch, or a self-modifying loop, depending entirely on the active state profile of the private interpreter. The data stream and the execution logic are completely unified, rendering static binary analysis obsolete.
+
 
 ---
 
