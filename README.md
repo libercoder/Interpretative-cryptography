@@ -40,7 +40,7 @@ $$\mathbf{0 \text{ AND } Y = 0 \quad | \quad 1 \text{ OR } Y = 1} \quad \color{g
 *   **Forward Transformation (Public Domain):** Processing injects uncertainty ($Y$), causing the logical state tree to branch exponentially. This effectively erases historical state trajectories for any classical observer or automated SAT-solver.
 *   **Reverse Transformation (Private Domain):** The private interpreter utilizes the inverse semantic map of $X$. During reverse execution, the deterministic collisions caused by $Y$ are perfectly counterbalanced by the paradoxical properties of $X$, collapsing the exponential search space back into a singular, predictable linear timeline.
 
-### 4. The Principle of Infinite Semantic Multiplicity
+### 4. The Principle of Infinite Semantic Multiplicity (ISM)
 The framework rejects the concept of a Fixed Instruction Set Architecture (FISA). There is no hardcoded table mapping bit combinations to specific operational classes (such as loops, shifts, or arithmetic transforms). Instead, any arbitrary sequence of bits is interpreted as a set of instructions through a fluid, multi-layered semantic context mapping ($S$). 
 
 A singular binary block possesses an infinite number of executable meanings: it can simultaneously decode into a polynomial transformation, a conditional branch, or a self-modifying loop, depending entirely on the active state profile of the private interpreter. The data stream and the execution logic are completely unified, rendering static binary analysis obsolete.
